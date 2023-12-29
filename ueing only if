@@ -1,0 +1,26 @@
+import java.util.*;
+
+class  Div
+
+{
+	public static void main(String[]args)
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.println("enter a value");
+
+	int a,b,c;
+     System.out.println("enter a value");
+
+	 a=s.nextInt();
+
+	 b=s.nextInt();
+	 if(b==0)
+		{
+		 System.out.println("b can not be a zero");
+		 b=1;
+ 		}
+     c=a/b;
+	 System.out.println("dividion ="+c);
+	}
+
+}
