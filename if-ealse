@@ -1,0 +1,30 @@
+ import java.util.*;
+
+class  Elase
+
+{
+	public static void main(String[]args)
+	{
+		Scanner s=new Scanner(System.in);
+		
+
+	int a,b;
+     System.out.println("enter a value");
+
+	 a=s.nextInt();
+
+	 b=s.nextInt();
+	 if(a>b)
+		
+		{
+		 System.out.println("biggest number"+a);
+		 
+ 		}
+     else
+		{
+		 System.out.println("biggest no"+b);
+
+		}
+	}
+
+}
