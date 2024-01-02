@@ -1,13 +1,11 @@
-import java.util.*;
- class Vijay
+class  Vijay
 {
-public static void main(String [] args)
-{
- Scanner s=new Scanner(System.in);
-int a,b;
-a=s.nextInt();
-b=s.nextInt();
-int r=(a>b)?a:b;
-System.out.println(r);
-}
-}
+	public static void main(String[] args) 
+	{
+		int i;
+		for (i=1;i<10;i++) 
+		{
+		
+		System.out.println(i);
+	}
+}}
